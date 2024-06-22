@@ -49,7 +49,7 @@ public class UI {
     printCapturedPieces(captured);
     System.out.println();
     System.out.println("Turn: " + chessMatch.getTurn());
-    if (!chessMatch.getCheckMate()) {
+    if (!chessMatch.getCheckmate()) {
       System.out.println("Waiting player: " + chessMatch.getCurrentPlayer());
       if (chessMatch.getCheck()) {
         System.out.println("Check!");
